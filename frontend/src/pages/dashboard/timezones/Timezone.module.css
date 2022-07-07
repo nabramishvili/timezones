@@ -1,0 +1,22 @@
+.timezoneItem{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.timezoneTime{
+    font-size: 24px;
+    color: #086c80;
+    display: block;
+}
+.timeTag{
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+    .timeTag{
+        width: 200px;
+        font-size: 12px;
+    }
+}
